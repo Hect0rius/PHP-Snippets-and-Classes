@@ -60,8 +60,6 @@ function decHexUInt16($in, $endian) {
                 $val = '0' . $val;
             }
         }
-        
-        var_dump($val);
         return $val;
     }
     return false;
