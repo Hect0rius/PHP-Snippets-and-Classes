@@ -1,4 +1,7 @@
 <?php
+/*
+ * Written by Hect0r Xorius <sysop@staticpi.net>
+ */
 
 // AES CBC 256 Encrypt Plain text with key string.
 // Returns, Array with ciphered text and iv.
