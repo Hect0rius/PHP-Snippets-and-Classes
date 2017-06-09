@@ -14,6 +14,9 @@ $handle->setPosition(0);
 
 // Test write some stuff.
 $handle->writeAsciiString('HELLO');
+$handle->writeInt16(20);
+$handle->writeInt32(20);
+$handle->writeInt64(9223372036854775807);
 $handle->writeUInt16(20);
 $handle->writeUInt32(20);
 $handle->writeUInt64(9223372036854775807);
@@ -28,6 +31,9 @@ $handle->setPosition(0);
 
 // Dump to the console each value we wrote above...
 var_dump($handle->readAsciiString(5));
+var_dump($handle->readInt16());
+var_dump($handle->readInt32());
+var_dump($handle->readInt64());
 var_dump($handle->readUInt16());
 var_dump($handle->readUInt32());
 var_dump($handle->readUInt64());
