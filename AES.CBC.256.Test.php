@@ -1,5 +1,7 @@
 <?php
-
+/*
+ * Written by Hect0r Xorius <staticpi.net@gmail.com>
+ */
 include('AES.CBC.256.php');
 
 $keyStr = 'FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF';
