@@ -1,6 +1,6 @@
 <?php
 /*
- * Written by Hect0r Xorius <sysop@staticpi.net>
+ * Written by Hect0r Xorius <staticpi.net@gmail.com>
  */
 
 // AES CBC 256 Encrypt Plain text with key string.
